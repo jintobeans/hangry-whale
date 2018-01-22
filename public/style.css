@@ -1,9 +1,23 @@
-body {
+html {
   font-family: sans-serif;
+  background: linear-gradient(to bottom right, powderblue, turquoise, blue);
+  width: 100vw;
+  height: 100vh
+}
+
+#myCanvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+h1 {
+  color: pink
 }
 
 a {
   text-decoration: none;
+  color: pink
 }
 
 label {
@@ -19,3 +33,14 @@ form div {
   margin: 1em;
   display: inline-block;
 }
+
+.bar rect {
+  fill: steelblue;
+}
+
+.bar text {
+  fill: #fff;
+  font: 10px sans-serif;
+}
+
+/*  red, rgb(255, 238, 0) */
